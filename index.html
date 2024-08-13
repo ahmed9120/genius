@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,15 +22,15 @@
     <div class="container">
         <header>
             <nav class="pt-1 d-flex justify-content-between ">
-                <div class="dropdown d-sm-none">
+                <div class="dropdown d-md-none">
                     <button class="btn fs-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="">الرئيسيه</a></li>
-                        <li><a class="dropdown-item" href="">الكورسات</a></li>
-                        <li><a class="dropdown-item" href="">المعلمون</a></li>
-                        <li><a class="dropdown-item" href="">من نحن!</a></li>
+                        <li><a class="dropdown-item" href="#">الرئيسيه</a></li>
+                        <li><a class="dropdown-item" href="./courses.html">الكورسات</a></li>
+                        <li><a class="dropdown-item" href="./teachers.html">المعلمون</a></li>
+                        <li><a class="dropdown-item" href="./about.html">من نحن!</a></li>
                     </ul>
                 </div>
                 <div class="right d-none d-sm-flex gap-5">
@@ -38,10 +38,10 @@
                     <a href="#">تسجيل الدخول</a>
                 </div>
                 <div class="middle d-none d-md-flex gap-5 ">
-                    <a href="">الرئيسيه</a>
-                    <a href="">الكورسات</a>
-                    <a href="">المعلمون</a>
-                    <a href="">من نحن!</a>
+                    <a href="#">الرئيسيه</a>
+                    <a href="./courses.html">الكورسات</a>
+                    <a href="./teachers.html">المعلمون</a>
+                    <a href="./about.html">من نحن!</a>
                 </div>
                 <div class="logo"><img src="./assets/images/Frame.svg" alt=""></div>
             </nav>
@@ -50,11 +50,11 @@
         <section class=" intro d-flex flex-column flex-md-row ">
             <div class="text ">
                 <h2>
-                    <span style="color: rgba(18, 55, 107, 1);">اغرس،
+                    <span class="text-primary">اغرس،
                     </span>
-                    <span style="color: rgba(244, 169, 5, 1);">أسِس،
+                    <span class="text-warning">أسِس،
                     </span>
-                    <span style="color: rgba(209, 34, 21, 1);">احصد</span>
+                    <span class="text-danger">احصد</span>
                 </h2>
                 <p>منصة تعليمية إلكترونية متخصصة في تعليم الصغار والنشئ أخلاقيًا، وعلميًا، مهاريًا.نوظف التكنولوجيا في
                     خدمة
@@ -213,7 +213,7 @@
             <div class="cards">
                 <div class="row pb-4">
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card h-100">
+                        <div class="card">
                             <img src="./assets/images/card1.jpg" class="card-img-top" alt="card image">
                             <div class="card-body">
                                 <h5 class="card-title text-warning fw-bold fs-2 text-center">دورة البرمجة للأطفال</h5>
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card h-100">
+                        <div class="card">
                             <img src="./assets/images/card2.jpg" class="card-img-top" alt="card image">
                             <div class="card-body">
                                 <h5 class="card-title text-primary-emphasis fw-bold fs-2 text-center">دورة اللغة
@@ -233,7 +233,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card h-100">
+                        <div class="card">
                             <img src="./assets/images/card3.jpg" class="card-img-top" alt="card image">
                             <div class="card-body">
                                 <h5 class="card-title text-danger fw-bold fs-2 text-center">دورة القاعدة النورانية</h5>
@@ -354,7 +354,7 @@
             </div>
             <div class="row pt-5">
                 <div class="col-6 col-lg-3">
-                    <div class="card h-100">
+                    <div class="card">
                         <div class="image-container bg-secondary">
                             <img src="./assets/images/tutor1.png" class="card-img-top" alt="card image">
                         </div>
@@ -365,7 +365,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3">
-                    <div class="card h-100">
+                    <div class="card">
                         <div class="image-container bg-danger">
                             <img src="./assets/images/tutor2.png" class="card-img-top" alt="card image">
                         </div>
@@ -376,7 +376,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3">
-                    <div class="card h-100">
+                    <div class="card">
                         <div class="image-container bg-primary-subtle">
                             <img src="./assets/images/tutor3.png" class="card-img-top" alt="card image">
                         </div>
@@ -387,7 +387,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3">
-                    <div class="card h-100">
+                    <div class="card">
                         <div class="image-container bg-warning">
                             <img src="./assets/images/tutor4.png" class="card-img-top" alt="card image">
                         </div>

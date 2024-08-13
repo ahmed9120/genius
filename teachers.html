@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/teachers.css">
+</head>
+
+<body>
+    <div class="text-center d-none d-xl-block col-12 text-white p-2" style="background-color: rgba(18, 55, 107, 1);">
+        ⭐استخدم كود <span class="fw-bold">كله بالحب</span> للحصول على خصم 20% علي
+        منتجاتنا⭐
+
+    </div>
+
+    <div class="container">
+        <header>
+            <nav class="pt-1 d-flex justify-content-between ">
+                <div class="dropdown d-md-none">
+                    <button class="btn fs-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">الرئيسيه</a></li>
+                        <li><a class="dropdown-item" href="./courses.html">الكورسات</a></li>
+                        <li><a class="dropdown-item" href="#">المعلمون</a></li>
+                        <li><a class="dropdown-item" href="./about.html">من نحن!</a></li>
+                    </ul>
+                </div>
+                <div class="right d-none d-sm-flex gap-5">
+                    <a class="rounded-pill" href="#">اكتشف الان</a>
+                    <a href="#">تسجيل الدخول</a>
+                </div>
+                <div class="middle d-none d-md-flex gap-5 ">
+                    <a href="./index.html">الرئيسيه</a>
+                    <a href="./courses.html">الكورسات</a>
+                    <a href="#">المعلمون</a>
+                    <a href="./about.html">من نحن!</a>
+                </div>
+                <div class="logo"><img src="./assets/images/Frame.svg" alt=""></div>
+            </nav>
+        </header>
+        <!-- ////////////////////// -->
+        <section class=" intro row">
+            <div class="text col-12 col-md-6 mb-3">
+                <h2 class="text-primary-emphasis">نخبــــــــة <span class="text-warning"> نفتخــــــر بـــــــها</span>
+                </h2>
+                <p>منصة تعليمية إلكترونية متخصصة في تعليم الصغار والنشئ أخلاقيًا، وعلميًا، مهاريًا.نوظف التكنولوجيا في
+                    خدمة
+                    صغارنا من تجربة تعلم ممتعة. نشاركك الرحلة مع طفلك لنصنع معًا إنسان سويّ ومتوازن في جميع جوانب حياته.
+                </p>
+                <div class="links">
+                    <a href="./courses.html">كورساتنا</a>
+                    <a href="./about.html">من نحن</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/tutor1.png" class="d-block w-100 bg-secondary" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>محمد عبد الحميد </h5>
+                                <p>معلم متخصص في تعليم اللغة الانجليزية للاطفال </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tutor2.png" class="d-block w-100 bg-danger" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>سماح السيوفي </h5>
+                                <p>معلمة متخصص في تعليم البرمجة البسطة والمتقدمة للاطفال </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tutor3.png" class="d-block w-100 bg-primary-subtle" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>راشد السعيد </h5>
+                                <p>معلم متخصص في تعليم اللغة الانجليزية للاطفال </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- /////////////////////// -->
+        <section class="bar pt-5">
+            <div class=" d-flex flex-wrap justify-content-around align-items-center gap-5">
+                <div class="image"><img src="./assets/images/Group (3).svg" alt="bar image"></div>
+                <div class="image"><img src="./assets/images/Group (2).svg" alt="bar image"></div>
+                <div class="image"><img src="./assets/images/Group (1).svg" alt="bar image"></div>
+                <div class="image"><img src="./assets/images/Group (4).svg" alt="bar image"></div>
+            </div>
+        </section>
+        <!-- ////////////////////// -->
+        <section class="tutors pt-5">
+            <div class="title col-12 col-lg-6">
+                <div class="start-line">
+                    <p><span style="text-decoration: line-through;"><span
+                                style="color: transparent;">//////////</span></span>معلمونا المميزون</p>
+                </div>
+                <div class="first-info">
+                    <p>نخبة من سادة</p>
+                    <p>تعليم الاطفال <span class=" text-warning">في الوطن العربي</span></p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="image-container bg-secondary">
+                            <img src="./assets/images/tutor1.png" class="card-img-top" alt="card image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold fs-2 text-center">محمد عبد الحميد</h5>
+                            <p class="card-text text-center">معلم متخصص في تعليم اللغة الانجليزية للاطفال</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="image-container bg-danger">
+                            <img src="./assets/images/tutor2.png" class="card-img-top" alt="card image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-danger fw-bold fs-2 text-center">سماح السيوفي</h5>
+                            <p class="card-text text-center">معلمة متخصص في تعليم البرمجة البسطة والمتقدمة للاطفال</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="image-container bg-primary-subtle">
+                            <img src="./assets/images/tutor3.png" class="card-img-top" alt="card image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary fw-bold fs-2 text-center"> راشد السعيد</h5>
+                            <p class="card-text text-center">معلم متخصص في تعليم اللغة الانجليزية للاطفال</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="image-container bg-warning">
+                            <img src="./assets/images/tutor4.png" class="card-img-top" alt="card image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning fw-bold fs-2 text-center">سراج الاحمدي</h5>
+                            <p class="card-text text-center">معلم متخصص في تعليم اللغة الانجليزية للاطفال</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////// -->
+        <section class="blue-quotes p-5">
+            <div class="row bg-primary p-5">
+                <div class="right col-12 col-md-6 position-relative">
+                    <div class="image">
+                        <img src="./assets/images/flying-boy.png" alt="flying-boy image">
+                    </div>
+                    <div class=" paper paper1 position-absolute ">
+                        <img style="width: 100px;" src="./assets/images/peper.png" alt="paper image">
+                    </div>
+                    <div class="paper paper2 position-absolute ">
+                        <img style="width: 100px;" src="./assets/images/peper.png" alt="paper image">
+                    </div>
+                </div>
+                <div class="left col-12 col-md-6">
+                    <h4 class="fs-3 text-white">أجعل اولادك ضمن النخبة الأكثر
+                        التحاقنا بالمستقبل الباهر</h4>
+                    <p class="text-white">نشاركك الرحلة مع طفلك لنصنع معًا إنسان سويّ ومتوازن
+                        في جميع جوانب حياته. </p>
+                    <a href="#" class="text-primary">كورساتنا</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- ////////// -->
+    <footer class="container rounded-top  pt-5 text-white fw-bold">
+        <div class="row p-5">
+            <div class="left col-12 col-lg-6 ps-3">
+                <div class="footer-logo pb-3">
+                    <img src="./assets/images/footer-logo.png" alt="footer logo">
+                </div>
+                <div class="address">
+                    <i class="fa-solid fa-location-dot ps-2"></i>
+                    <p class="d-inline">المنطقة الثانية - الحي الخامس - القاهرة الجديدة - القاهرة - مصر</p>
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-phone ps-2"></i>
+                    <p class="d-inline">201062298590+</p>
+                </div>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope ps-2"></i>
+                    <p class="d-inline">gkc@gkc-online.com</p>
+                </div>
+                <div class="social ">
+                    <i class="fa-brands fa-facebook ps-4"></i>
+                    <i class="fa-brands fa-linkedin ps-4"></i>
+                    <i class="fa-brands fa-square-youtube ps-4"></i>
+                </div>
+            </div>
+            <div class="middle col-6 col-lg-3 ps-3">
+                <div class="title">
+                    <h4 class="text-white-50">أريد الذهاب إلى </h4>
+                </div>
+                <div>
+                    <p><a href="">الخصومات</a></p>
+                </div>
+                <div>
+                    <p><a href="">التقديم</a></p>
+                </div>
+                <div>
+                    <p><a href="">التواصل السريع!</a></p>
+                </div>
+                <div>
+                    <p><a href="">الوظائف</a> </p>
+                </div>
+            </div>
+            <div class="right col-6 col-lg-3">
+                <div class="title">
+                    <h4 class="text-white-50">القائمة الرئيسية </h4>
+                </div>
+                <div>
+                    <p><a href="">الرئيسية</a></p>
+                </div>
+                <div>
+                    <p><a href="">الكورسات</a></p>
+                </div>
+                <div>
+                    <p><a href="">من نحن</a></p>
+                </div>
+                <div>
+                    <p><a href="">تواصل معنا</a> </p>
+                </div>
+            </div>
+        </div>
+        <div dir="ltr" class="copyright fw-normal row" style="border-top: 1px solid white">
+            <div class="col-12 col-md-6 text-center p-2">
+                <p>Copyright © 2023. All Rights Reserved.</p>
+            </div>
+            <div class="col-12 col-md-6 text-center p-2">
+                <p class="d-inline">Terms of use</p>
+                <p class="d-inline fw-bold">|</p>
+                <p class="d-inline">Privacy Environmental Policy </p>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

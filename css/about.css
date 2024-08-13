@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jura:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+:root {
+  --orange: rgba(240, 75, 37, 1);
+  --red: rgba(209, 34, 21, 1);
+  --yellow: rgba(244, 169, 5, 1);
+  --dark-blue: rgba(18, 55, 107, 1);
+  --light-blue: rgba(40, 108, 213, 1);
+}
+
+/*///////////// header ////////////////*/
+
+header a {
+  text-decoration: none;
+  font-weight: 700;
+}
+header .right a:first-child {
+  padding: 0.5rem 1.5rem;
+  color: white;
+  background-color: var(--orange);
+}
+header .right a:first-child:hover {
+  background-color: rgba(240, 74, 37, 0.552);
+}
+header .right a:last-child {
+  color: var(--orange);
+  align-self: center;
+}
+header .middle a {
+  color: var(--dark-blue);
+  align-self: center;
+}
+
+/*/ //////// intro section ///////////////*/
+.intro {
+  padding: 5rem 1rem 2rem 1rem;
+}
+
+.intro .text h2 {
+  font-size: 4rem;
+}
+.intro .text p {
+  font-size: 1.1rem;
+  color: rgba(97, 97, 97, 0.751);
+}
+.intro .links a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  margin-left: 1rem;
+  background-color: var(--orange);
+  color: white;
+}
+.intro .links a:first-child:hover {
+  background-color: rgba(240, 74, 37, 0.552) !important;
+}
+
+/* /////info////////// */
+.info div {
+  border: 5px solid white;
+  border-radius: 0.5rem;
+}
+
+/* //////footer////// */
+footer {
+  background-color: var(--orange);
+}
+footer .row :is(.left, .middle, .right) {
+  line-height: 3rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.52);
+}

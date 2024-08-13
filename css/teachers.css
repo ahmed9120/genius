@@ -35,7 +35,6 @@ header .middle a {
   color: var(--dark-blue);
   align-self: center;
 }
-
 /*/ //////// intro section ///////////////*/
 .intro {
   padding: 5rem 1rem 2rem 1rem;
@@ -70,30 +69,18 @@ header .middle a {
   color: rgba(144, 144, 144, 1);
 }
 
-.intro .text {
-  width: 50%;
-  height: 100%;
-}
-.intro .image {
-  width: 50%;
-  height: 100%;
-}
-
-.intro .image img {
+#carouselExampleCaptions {
   width: 100%;
-  height: 100%;
+  height: 250px;
+}
+#carouselExampleCaptions img {
+  width: 100%;
+  height: 250px;
   object-fit: contain;
 }
-@media (max-width: 768px) {
-  .intro .text {
-    width: 100%;
-    height: 50%;
-    padding-bottom: 3rem;
-  }
-  .intro .image {
-    width: 100%;
-    height: 50%;
-  }
+#carouselExampleCaptions :is(h5, p) {
+  font-weight: 900;
+  text-align: right;
 }
 
 /* //////bar section///////// */
@@ -102,8 +89,8 @@ header .middle a {
   border-radius: 0.5rem;
   padding: 1rem;
 }
-/* //////goals////////// */
-.goals .start-line {
+/* //////tutors section///// */
+.tutors .start-line {
   color: var(--dark-blue);
 }
 .first-info {
@@ -111,75 +98,17 @@ header .middle a {
   font-size: 2.5rem;
   color: var(--dark-blue);
 }
-.first-info span {
-  color: var(--yellow);
-}
-.b1:not(.collapsed) {
-  background-color: var(--yellow);
-  color: white;
-}
-.b2:not(.collapsed) {
-  background-color: var(--orange);
-  color: white;
-}
-.b3:not(.collapsed) {
-  background-color: var(--dark-blue);
-  color: white;
-}
-.b4:not(.collapsed) {
-  background-color: var(--light-blue);
-  color: white;
-}
-.c1 {
-  background: rgba(244, 169, 5, 0.25);
-}
-.c2 {
-  background: rgba(240, 75, 37, 0.25);
-}
-.c3 {
-  background: rgba(18, 55, 107, 0.25);
-}
-.c4 {
-  background: rgba(40, 108, 213, 0.25);
-}
-.accordion-button::after {
-  display: none;
-}
-
-.goals .left {
-  background-color: var(--yellow);
-  border-radius: 1rem;
-}
-.goals img {
-  transform: rotate(-30deg);
-}
-/* /////statistics///// */
-
-/* /////////courses///////// */
-.available-courses .card img {
+.tutors .card img {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
-.know-more a {
-  text-decoration: none;
-  font-size: 1.25rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.2rem;
-  color: white;
-  font-weight: 700;
-  background-color: var(--orange);
-}
-.know-more a:hover {
-  background-color: rgba(240, 74, 37, 0.532);
+.tutors .first-info h2 {
+  color: var(--dark-blue);
+
+  font-size: 2.5rem;
 }
 
-/* //////review section/////// */
-.review-card {
-  background: rgba(245, 245, 245, 1);
-  border: 1rem solid white;
-}
-/* //////tutors section///// */
 .tutors .image-container {
   width: 100%;
   height: 244px;
